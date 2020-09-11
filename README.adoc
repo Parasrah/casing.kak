@@ -23,4 +23,4 @@ casing convention to another
 
 In the future I would like to provide a new mode to avoid cluttering the command namespace, as well as explore
 commands to translate from any casing to the desired case convention, such as `to-camel`, `to-capital` instead of
-`*-to-camel`, `*-to-capital`
+`\*-to-camel`, `*-to-capital`
