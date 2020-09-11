@@ -1,0 +1,26 @@
+= casing.kak
+Parasrah <kakoune@parasrah.com>
+
+`casing.kak` is a Kakoune plugin to easily translate text from one case convention to another. For example, you might have
+a file with a bunch of `camelCase` variables that you want to transform to `snake_case`.
+
+
+Currently the way this plugin solves this problem is by exposing commands to transform variables under the cursor from one
+casing convention to another
+
+* snake-to-const
+* snake-to-camel
+* snake-to-capital
+* const-to-snake
+* const-to-camel
+* const-to-capital
+* camel-to-snake
+* camel-to-const
+* camel-to-capital
+* capital-to-snake
+* capital-to-const
+* capital-to-camel
+
+In the future I would like to provide a new mode to avoid cluttering the command namespace, as well as explore
+commands to translate from any casing to the desired case convention, such as `to-camel`, `to-capital` instead of
+`*-to-camel`, `*-to-capital`
